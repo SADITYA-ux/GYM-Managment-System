@@ -1,0 +1,103 @@
+.filters-container {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters-header h3 {
+  margin: 0;
+}
+
+.active-filters-badge {
+  background: #ff9800;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.filter-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.search-wrapper {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.clear-field-btn {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.filter-select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.filters-actions {
+  margin-top: 15px;
+}
+
+.clear-btn {
+  padding: 8px 14px;
+  border: none;
+  background: #e53935;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clear-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.active-filters {
+  margin-top: 10px;
+}
+
+.filter-tag {
+  background: #e3f2fd;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.filter-tag button {
+  border: none;
+  background: transparent;
+  margin-left: 5px;
+  cursor: pointer;
+}

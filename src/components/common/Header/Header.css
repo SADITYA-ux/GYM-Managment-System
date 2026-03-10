@@ -1,0 +1,84 @@
+/* Header full width */
+.header {
+  width: 100%;
+  background: #111;
+  color: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Container */
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LEFT: Logo */
+.header__logo {
+  display: flex;
+  align-items: left;
+  text-decoration: none;
+  position: relative;
+  right : 170px;
+}
+
+.header__logo--first {
+  font-size: 26px;
+  margin-right: 6px;
+}
+
+.header__logo--second {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff4d4d;
+}
+
+/* CENTER: Nav menu */
+.header__center {
+  flex: 1; /* takes all space between left and right */
+  text-align: center;
+  position: relative;
+  left : 370px;
+}
+
+.header__nav--list {
+  list-style: none;
+  display: inline-flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav--item a {
+  color: rgb(200, 255, 0);
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.header__nav--item a:hover {
+  color: #ff4d4d;
+}
+
+/* RIGHT: Auth icons */
+.header__right {
+  display: flex;
+  gap: 18px;
+  position: relative;
+  right : -170px;
+}
+
+.header__nav--icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.header__nav--icon:hover {
+  transform: scale(1.2);
+}

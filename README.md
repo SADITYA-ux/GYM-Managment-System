@@ -122,6 +122,40 @@ gym-management-system/
 - Search input with debounce
 - Clear filters button
 
+### COMPONENTS/CALORIE/
+
+**CalorieSearch.jsx**
+
+- Search input for finding foods
+- Real-time filtering as user types
+- Displays matching food items
+- Add button next to each result
+- Shows food name and calories
+
+**FoodTable.jsx**
+
+- Table display of all foods
+- Columns: Food, Serving, Calories, Action
+- Sort by name or calories
+- Filter by food category
+- Add to log button for each row
+
+**DailyLog.jsx**
+
+- List of foods added today
+- Shows food name and quantity
+- Displays calories per item
+- Running total at bottom
+- Remove items from log
+
+**CalorieSummary.jsx**
+
+- Total calories consumed
+- Daily goal progress
+- Calories remaining
+- Number of items logged
+- Compact stats display
+
 ### COMPONENTS/MEMBERS/
 
 **MemberList.jsx**
@@ -147,32 +181,6 @@ gym-management-system/
 - Membership status badge
 - Expiry date indicator
 - Quick action buttons
-
-### COMPONENTS/DASHBOARD/
-
-**StatsCard.jsx**
-
-- Statistics display card
-- Props: title, value, icon, change percentage
-- Animated number counting
-- Trend indicator (up/down)
-- Tooltip for details
-
-**Charts.jsx**
-
-- Data visualization using Recharts
-- Member growth line chart
-- Exercise popularity pie chart
-- Revenue bar chart
-- Responsive sizing
-
-**RecentActivity.jsx**
-
-- Real-time activity feed
-- Activity types: new members, completed workouts, payments
-- Timestamp display
-- Auto-refresh every 30 seconds
-- Activity icons
 
 ### COMPONENTS/AUTH/
 

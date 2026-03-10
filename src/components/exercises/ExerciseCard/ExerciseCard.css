@@ -1,0 +1,24 @@
+.Excards {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Excards:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.Excards h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Excards p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #555;
+}

@@ -1,0 +1,33 @@
+.exercise-dashboard{
+  display:flex;
+  gap:30px;
+  width:100%;
+  min-height:80vh;
+}
+
+/* LEFT SIDE FORM */
+
+.exercise-form{
+  width:30%;
+  min-width:300px;
+}
+
+/* RIGHT SIDE LIST */
+
+.exercise-list{
+  flex:1;
+}
+
+/* Responsive */
+
+@media (max-width:900px){
+
+  .exercise-dashboard{
+    flex-direction:column;
+  }
+
+  .exercise-form{
+    width:100%;
+  }
+
+}

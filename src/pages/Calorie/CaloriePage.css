@@ -1,0 +1,40 @@
+/* CaloriePage.css */
+.calorie-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.calorie-page h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.calorie-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .calorie-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .calorie-page {
+    padding: 1rem;
+  }
+  
+  .calorie-page h1 {
+    font-size: 2rem;
+  }
+}
