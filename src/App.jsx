@@ -10,6 +10,7 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import Contact from "./pages/Contact/Contact";
 import Terms from "./pages/Terms/Terms";
 import Privacy from "./pages/Privacy/Privacy";
+import Login from "./pages/Login/Login";
 
 export default function App()
 {
@@ -27,6 +28,7 @@ export default function App()
           <Route path="/contact" element = { <Contact/> } />
           <Route path="/terms" element = { <Terms/> } />
           <Route path="/privacy" element = { <Privacy/> } />
+          <Route path = "/Login" element = { <Login/> } />
         </Routes>
       </div>
 

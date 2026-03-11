@@ -1,0 +1,93 @@
+/* Main container */
+.Login-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Form styling */
+.Login-main form {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form title */
+.Login-main h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Labels */
+.Login-main label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input container */
+.email-sec,
+.password-sec {
+  margin-bottom: 15px;
+}
+
+/* Inputs */
+.Login-main input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Input focus effect */
+.Login-main input:focus {
+  border-color: #4facfe;
+  outline: none;
+  box-shadow: 0 0 5px rgba(79,172,254,0.4);
+}
+
+/* Button */
+.Login-main button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #4facfe;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.Login-main button:hover {
+  background: #2f8df5;
+}
+
+/* Message */
+.login-message {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+}
+
+.login-message.success {
+  color: green;
+}
+
+.login-message.error {
+  color: red;
+}
